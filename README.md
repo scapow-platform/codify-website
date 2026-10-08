@@ -9,6 +9,10 @@ index.html     page content
 styles.css     styles
 script.js      nav, scroll reveals, hero animation
 assets/        logo variants and favicons
+404.html       not-found page (served by GitHub Pages)
+robots.txt     crawler rules + sitemap location
+sitemap.xml    sitemap for search engines (update <lastmod> on content changes)
+site.webmanifest  app name and icons
 .nojekyll      tells GitHub Pages to serve files as-is
 ```
 

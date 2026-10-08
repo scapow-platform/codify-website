@@ -1,0 +1,13 @@
+{
+  "name": "Codify",
+  "short_name": "Codify",
+  "description": "Portuguese tech company for product and software development.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#fafaf7",
+  "theme_color": "#0b3d2c",
+  "icons": [
+    { "src": "assets/codify-mark.png", "sizes": "256x256", "type": "image/png" },
+    { "src": "assets/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

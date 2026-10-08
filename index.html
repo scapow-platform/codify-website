@@ -3,22 +3,92 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Codify — Product & Software Development</title>
-  <meta name="description" content="Codify is a Portuguese product and software development company, and the team behind Scapow — the leading marketplace for static out-of-home advertising." />
+  <title>Codify | Portuguese Tech Company for Product &amp; Software Development</title>
+  <meta name="description" content="Codify is a Portuguese tech company for innovative product and software development. Makers of Scapow, the leading static OOH marketplace." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="author" content="Codify" />
+  <link rel="canonical" href="https://codify-technology.com/" />
   <meta name="theme-color" content="#0b3d2c" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Codify — Product & Software Development" />
-  <meta property="og:description" content="We turn ambitious ideas into products that scale. Makers of Scapow, the leading static OOH marketplace." />
-  <meta property="og:image" content="assets/codify-logo.png" />
+  <meta property="og:site_name" content="Codify" />
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:url" content="https://codify-technology.com/" />
+  <meta property="og:title" content="Codify | Portuguese Tech Company for Product &amp; Software Development" />
+  <meta property="og:description" content="Innovative product and software development from Portugal. Makers of Scapow, the leading static OOH marketplace." />
+  <meta property="og:image" content="https://codify-technology.com/assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Codify — Product &amp; software development, Portugal" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Codify | Portuguese Tech Company for Product &amp; Software Development" />
+  <meta name="twitter:description" content="Innovative product and software development from Portugal. Makers of Scapow, the leading static OOH marketplace." />
+  <meta name="twitter:image" content="https://codify-technology.com/assets/og-image.png" />
 
   <link rel="icon" href="assets/favicon.ico" sizes="any" />
   <link rel="icon" type="image/png" href="assets/codify-mark.png" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://codify-technology.com/#organization",
+        "name": "Codify",
+        "url": "https://codify-technology.com/",
+        "logo": "https://codify-technology.com/assets/codify-logo.png",
+        "image": "https://codify-technology.com/assets/og-image.png",
+        "email": "hello@codify-technology.com",
+        "description": "Codify is a Portuguese technology company specialised in product and software development, and the company behind Scapow, the leading marketplace for static out-of-home (OOH) advertising.",
+        "address": { "@type": "PostalAddress", "addressCountry": "PT" },
+        "areaServed": "Worldwide",
+        "knowsAbout": [
+          "Software development",
+          "Product development",
+          "Product strategy",
+          "Product design",
+          "Web development",
+          "Cloud infrastructure",
+          "Innovation",
+          "AdTech",
+          "Online marketplaces",
+          "Out-of-home advertising"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "email": "hello@codify-technology.com",
+          "availableLanguage": ["English", "Portuguese"]
+        },
+        "brand": { "@type": "Brand", "name": "Scapow", "url": "https://scapow.com" }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://codify-technology.com/#website",
+        "url": "https://codify-technology.com/",
+        "name": "Codify",
+        "inLanguage": "en",
+        "publisher": { "@id": "https://codify-technology.com/#organization" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "Scapow",
+        "url": "https://scapow.com",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "description": "Scapow is the leading marketplace for static out-of-home advertising, connecting advertisers with billboard and poster media owners.",
+        "publisher": { "@id": "https://codify-technology.com/#organization" }
+      }
+    ]
+  }
+  </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <script>document.documentElement.classList.add("js")</script>
 </head>
@@ -28,7 +98,7 @@
   <header class="nav" id="top">
     <div class="wrap nav__inner">
       <a class="nav__brand" href="#top" aria-label="Codify home">
-        <img src="assets/codify-logo.png" alt="Codify" width="760" height="245" />
+        <img src="assets/codify-logo.png" alt="Codify logo" width="760" height="245" fetchpriority="high" />
       </a>
       <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
         <span></span><span></span>
@@ -37,6 +107,7 @@
         <a href="#scapow">Scapow</a>
         <a href="#services">What we do</a>
         <a href="#approach">Approach</a>
+        <a href="#about">About</a>
         <a class="btn btn--sm" href="#contact">Get in touch</a>
       </nav>
     </div>
@@ -52,7 +123,8 @@
           We <span class="hl">codify</span> ambitious ideas into products that&nbsp;scale.
         </h1>
         <p class="hero__lead reveal">
-          Codify designs, builds and runs digital products — starting with our own.
+          Codify is a Portuguese tech company for product and software development.
+          We design, build and run innovative digital products — starting with our own.
           Our flagship, <a class="inline-link" href="https://scapow.com" target="_blank" rel="noopener"><strong>Scapow</strong></a>, is the leading marketplace for static out-of-home advertising.
         </p>
         <div class="hero__cta reveal">
@@ -63,7 +135,8 @@
       <div class="wrap hero__ticker reveal" aria-hidden="true">
         <span>Product strategy</span><i>/</i>
         <span>Design</span><i>/</i>
-        <span>Engineering</span><i>/</i>
+        <span>Software development</span><i>/</i>
+        <span>Innovation</span><i>/</i>
         <span>AdTech</span><i>/</i>
         <span>Marketplaces</span>
       </div>
@@ -74,7 +147,7 @@
       <div class="wrap scapow__grid">
         <div class="scapow__copy">
           <p class="label reveal">01 — Our product</p>
-          <h2 class="reveal">Scapow.<br /><span class="muted">Out-of-home, finally online.</span></h2>
+          <h2 class="reveal">Scapow.<br /><span class="muted">Out-of-home advertising, finally online.</span></h2>
           <p class="reveal">
             Scapow is the leading product and marketplace for <strong>static OOH</strong> — billboards,
             posters and street furniture. It connects advertisers with media owners in one place,
@@ -149,10 +222,11 @@
       <div class="wrap">
         <div class="section-head">
           <p class="label reveal">02 — What we do</p>
-          <h2 class="reveal">From first sketch to production&nbsp;scale.</h2>
+          <h2 class="reveal">Product &amp; software development.<br /><span class="muted">From first sketch to production&nbsp;scale.</span></h2>
           <p class="section-head__lead reveal">
-            We build our own products and partner with teams who want to build theirs.
-            Same people, same standards.
+            End-to-end product and software development for startups and established companies,
+            in Portugal and abroad. We build our own products and partner with teams who want
+            to build theirs. Same people, same standards.
           </p>
         </div>
 
@@ -169,8 +243,8 @@
           </article>
           <article class="card reveal">
             <span class="card__n">/03</span>
-            <h3>Software engineering</h3>
-            <p>Web platforms, APIs and cloud infrastructure — reliable, secure and built to grow with you.</p>
+            <h3>Software development</h3>
+            <p>Custom web platforms, APIs and cloud infrastructure — reliable, secure and built to grow with you.</p>
           </article>
           <article class="card reveal">
             <span class="card__n">/04</span>
@@ -212,11 +286,40 @@
       </div>
     </section>
 
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="wrap about__grid">
+        <div>
+          <p class="label reveal">04 — About Codify</p>
+          <h2 class="reveal">A Portuguese tech company built on innovation.</h2>
+        </div>
+        <div class="about__body">
+          <p class="reveal">
+            Codify is a technology company from Portugal. We combine product thinking with
+            software engineering to turn ideas into digital products people actually use —
+            and we stay to run and grow them.
+          </p>
+          <p class="reveal">
+            Our own product, <a class="inline-link" href="https://scapow.com" target="_blank" rel="noopener">Scapow</a>,
+            is bringing innovation to static out-of-home advertising. Everything we learn building it
+            goes into the products we develop with our partners.
+          </p>
+          <dl class="facts reveal">
+            <div><dt>Based in</dt><dd>Portugal</dd></div>
+            <div><dt>Focus</dt><dd>Product &amp; software development</dd></div>
+            <div><dt>Expertise</dt><dd>AdTech, marketplaces, web platforms</dd></div>
+            <div><dt>Flagship</dt><dd>Scapow</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
     <!-- CONTACT -->
     <section class="contact" id="contact">
       <div class="wrap contact__inner">
-        <p class="label reveal">04 — Contact</p>
+        <p class="label reveal">05 — Contact</p>
         <h2 class="contact__title reveal">Let’s build<br />what’s next.</h2>
+        <p class="contact__lead reveal">Looking for a product and software development partner in Portugal? Tell us what you’re building.</p>
         <div class="contact__row reveal">
           <a class="contact__mail" href="mailto:hello@codify-technology.com">hello@codify-technology.com</a>
           <button class="btn btn--ghost btn--sm copy" data-copy="hello@codify-technology.com">Copy email</button>
@@ -227,8 +330,8 @@
 
   <footer class="footer">
     <div class="wrap footer__inner">
-      <img src="assets/codify-logo-light.png" alt="Codify" width="760" height="245" />
-      <p>Product &amp; software development · Made in Portugal</p>
+      <img src="assets/codify-logo-light.png" alt="Codify logo" width="760" height="245" loading="lazy" />
+      <p>Codify — Portuguese product &amp; software development company</p>
       <a class="footer__link" href="https://scapow.com" target="_blank" rel="noopener">Scapow ↗</a>
       <p>© <span id="year">2026</span> Codify. All rights reserved.</p>
     </div>
