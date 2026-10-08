@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Codify — Product & Software Development</title>
+  <meta name="description" content="Codify is a Portuguese product and software development company, and the team behind Scapow — the leading marketplace for static out-of-home advertising." />
+  <meta name="theme-color" content="#0b3d2c" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Codify — Product & Software Development" />
+  <meta property="og:description" content="We turn ambitious ideas into products that scale. Makers of Scapow, the leading static OOH marketplace." />
+  <meta property="og:image" content="assets/codify-logo.png" />
+
+  <link rel="icon" href="assets/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" href="assets/codify-mark.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="top">
+    <div class="wrap nav__inner">
+      <a class="nav__brand" href="#top" aria-label="Codify home">
+        <img src="assets/codify-logo.png" alt="Codify" width="760" height="245" />
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+      <nav class="nav__menu" id="nav-menu" aria-label="Primary">
+        <a href="#scapow">Scapow</a>
+        <a href="#services">What we do</a>
+        <a href="#approach">Approach</a>
+        <a class="btn btn--sm" href="#contact">Get in touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <canvas class="hero__field" aria-hidden="true"></canvas>
+      <div class="wrap hero__inner">
+        <p class="eyebrow reveal"><span class="dot"></span> Product &amp; software studio · Portugal</p>
+        <h1 class="hero__title reveal">
+          We <span class="hl">codify</span> ambitious ideas into products that&nbsp;scale.
+        </h1>
+        <p class="hero__lead reveal">
+          Codify designs, builds and runs digital products — starting with our own.
+          Our flagship, <strong>Scapow</strong>, is the leading marketplace for static out-of-home advertising.
+        </p>
+        <div class="hero__cta reveal">
+          <a class="btn" href="#scapow">Discover Scapow <span aria-hidden="true">→</span></a>
+          <a class="btn btn--ghost" href="#contact">Start a project</a>
+        </div>
+      </div>
+      <div class="wrap hero__ticker reveal" aria-hidden="true">
+        <span>Product strategy</span><i>/</i>
+        <span>Design</span><i>/</i>
+        <span>Engineering</span><i>/</i>
+        <span>AdTech</span><i>/</i>
+        <span>Marketplaces</span>
+      </div>
+    </section>
+
+    <!-- SCAPOW -->
+    <section class="scapow" id="scapow">
+      <div class="wrap scapow__grid">
+        <div class="scapow__copy">
+          <p class="label reveal">01 — Our product</p>
+          <h2 class="reveal">Scapow.<br /><span class="muted">Out-of-home, finally online.</span></h2>
+          <p class="reveal">
+            Scapow is the leading product and marketplace for <strong>static OOH</strong> — billboards,
+            posters and street furniture. It connects advertisers with media owners in one place,
+            turning a slow, offline process into a few clicks.
+          </p>
+          <ul class="features">
+            <li class="reveal">
+              <span class="features__k">Discover</span>
+              <span>Search available inventory on a live map — by location, format and audience.</span>
+            </li>
+            <li class="reveal">
+              <span class="features__k">Plan</span>
+              <span>Compare sites, availability and pricing side by side, with full transparency.</span>
+            </li>
+            <li class="reveal">
+              <span class="features__k">Book</span>
+              <span>Reserve campaigns self-serve, without the endless email threads.</span>
+            </li>
+            <li class="reveal">
+              <span class="features__k">Grow</span>
+              <span>Media owners list inventory, reach new advertisers and fill more faces.</span>
+            </li>
+          </ul>
+          <a class="btn btn--light reveal" href="mailto:hello@codify-technology.com?subject=Scapow">Talk to us about Scapow <span aria-hidden="true">→</span></a>
+        </div>
+
+        <!-- Product illustration -->
+        <div class="mock reveal" aria-hidden="true">
+          <div class="mock__bar">
+            <span></span><span></span><span></span>
+            <em>scapow · map view</em>
+          </div>
+          <div class="mock__map">
+            <svg class="mock__roads" viewBox="0 0 400 300" preserveAspectRatio="none">
+              <path d="M-10 210 C 80 190, 140 120, 230 130 S 360 60, 420 40" />
+              <path d="M40 -10 C 70 80, 120 160, 110 310" />
+              <path d="M-10 90 C 120 100, 250 180, 420 170" />
+              <path d="M270 -10 C 260 100, 300 200, 330 310" />
+            </svg>
+            <span class="pin" style="--x:22%;--y:30%"></span>
+            <span class="pin pin--on" style="--x:46%;--y:44%"></span>
+            <span class="pin" style="--x:70%;--y:24%"></span>
+            <span class="pin" style="--x:62%;--y:68%"></span>
+            <span class="pin" style="--x:30%;--y:72%"></span>
+            <span class="pin" style="--x:84%;--y:56%"></span>
+
+            <div class="mock__card">
+              <div class="mock__thumb"></div>
+              <div>
+                <p class="mock__title">Billboard · 8 × 3 m</p>
+                <p class="mock__meta">Static · Illuminated</p>
+              </div>
+              <span class="mock__badge">Available</span>
+            </div>
+          </div>
+          <div class="mock__foot">
+            <span><b>Format</b> Billboard</span>
+            <span><b>Period</b> 2 weeks</span>
+            <span class="mock__btn">Book</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="label reveal">02 — What we do</p>
+          <h2 class="reveal">From first sketch to production&nbsp;scale.</h2>
+          <p class="section-head__lead reveal">
+            We build our own products and partner with teams who want to build theirs.
+            Same people, same standards.
+          </p>
+        </div>
+
+        <div class="cards">
+          <article class="card reveal">
+            <span class="card__n">/01</span>
+            <h3>Product strategy</h3>
+            <p>Find the problem worth solving, shape the offer, and define what to build first — and what not to.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__n">/02</span>
+            <h3>Product design</h3>
+            <p>Interfaces that feel obvious. Research, UX and UI crafted for the people who actually use them.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__n">/03</span>
+            <h3>Software engineering</h3>
+            <p>Web platforms, APIs and cloud infrastructure — reliable, secure and built to grow with you.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__n">/04</span>
+            <h3>AdTech &amp; marketplaces</h3>
+            <p>Two-sided platforms, inventory, pricing and booking flows — hard-won expertise from running Scapow.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- APPROACH -->
+    <section class="approach" id="approach">
+      <div class="wrap approach__grid">
+        <div class="section-head">
+          <p class="label reveal">03 — Approach</p>
+          <h2 class="reveal">Sharp by default.</h2>
+          <p class="section-head__lead reveal">
+            We are product people who write code. A few principles guide every decision we make.
+          </p>
+        </div>
+        <ol class="principles">
+          <li class="reveal">
+            <h3>Product first</h3>
+            <p>Technology serves the outcome. We measure success by impact, not by lines of code.</p>
+          </li>
+          <li class="reveal">
+            <h3>Ship, learn, repeat</h3>
+            <p>Small releases, real feedback, fast iteration. Momentum beats perfect plans.</p>
+          </li>
+          <li class="reveal">
+            <h3>Simple wins</h3>
+            <p>Fewer moving parts, clearer interfaces, less to maintain. Simplicity is a feature.</p>
+          </li>
+          <li class="reveal">
+            <h3>Built to last</h3>
+            <p>We operate what we build, so we build it properly — tested, observable and secure.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="wrap contact__inner">
+        <p class="label reveal">04 — Contact</p>
+        <h2 class="contact__title reveal">Let’s build<br />what’s next.</h2>
+        <div class="contact__row reveal">
+          <a class="contact__mail" href="mailto:hello@codify-technology.com">hello@codify-technology.com</a>
+          <button class="btn btn--ghost btn--sm copy" data-copy="hello@codify-technology.com">Copy email</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <img src="assets/codify-logo-light.png" alt="Codify" width="760" height="245" />
+      <p>Product &amp; software development · Made in Portugal</p>
+      <p>© <span id="year">2026</span> Codify. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
